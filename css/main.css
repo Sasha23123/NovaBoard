@@ -815,7 +815,7 @@ footer{
 }
 .slick-prev, .slick-next, .slick-arrow important{
     
-    display: none;
+    display: none !important;
 }
 .slick-dots{
     position: relative;
