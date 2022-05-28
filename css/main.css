@@ -526,7 +526,7 @@ header{
 }
 .block-tasks{
     height: 570px;
-    background-image: url(../image/about-task.png);
+    background-image: url('../image/about-task.png');
     background-repeat: no-repeat;
     min-height: 570px;
     margin-top: 50px;;
@@ -812,8 +812,7 @@ footer{
 .slick-track> div > img {
     position: initial;
 }
-.slick-prev, .slick-next, .slick-arrow important{
-    
+.slick-prev, .slick-next, .slick-arrow{
     display: none !important; 
 }
 .slick-dots{
