@@ -472,7 +472,6 @@ header{
     text-align: center;
 }
 .specifications-block-table tr:nth-child(2n) {
-    background: #f2f5f7;
     border-bottom: 2px solid #d5dfec;
     border-left: 1px solid #d5dfec;
     border-right: 1px solid #d5dfec;
@@ -799,7 +798,7 @@ footer{
     width: 970px;
     height: 497px;
     overflow: hidden;
-    left: 475px;
+    left: 460px;
     top: 0;
 }
 .slick-track{
@@ -815,7 +814,7 @@ footer{
 }
 .slick-prev, .slick-next, .slick-arrow important{
     
-    display: none;
+    display: none !important; 
 }
 .slick-dots{
     position: relative;
